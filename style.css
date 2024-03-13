@@ -1,0 +1,117 @@
+/* Reset some styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Use the specified color theme */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #25292F;
+    color: rgb(37, 150, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #333;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .user-selection {
+    margin-bottom: 2rem;
+  }
+  
+  .user-selection h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    background-color: rgb(37, 150, 190);
+    color: #25292F;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: 500;
+  }
+  
+  .btn:hover {
+    background-color: rgb(30, 120, 152);
+  }
+  
+  .btn svg {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .login-box,
+  .signup-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  input {
+    padding: 0.8rem;
+    border: 1px solid rgba(37, 150, 190, 0.5);
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: rgb(37, 150, 190);
+  }
+  
+  a {
+    color: rgb(37, 150, 190);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: rgb(30, 120, 152);
+  }
